@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-The project focuses to design an exploration for building renovation to understand the tradeoff between occupancy (density), comfort and energy use intensity while balancing operational energy, reducing the overall carbon emission, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.
+The project focuses on designing an exploration for building renovation to understand the tradeoff between occupancy (density), comfort, and energy use intensity while balancing operational energy, reducing overall carbon emissions, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.
 
 
     ---
