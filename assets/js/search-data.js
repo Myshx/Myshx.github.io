@@ -391,9 +391,9 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "Design Space Exploration for High-Efficiency Building",
+            },},{id: "projects-design-space-exploration-for-high-efficiency-building",
+          title: 'Design Space Exploration for High-Efficiency Building',
+          description: "The project focuses on designing an exploration for building renovation to understand the tradeoff between occupancy (density), comfort, and energy use intensity while balancing operational energy, reducing overall carbon emissions, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
