@@ -30,7 +30,7 @@ social: true # includes social icons at the bottom of the page
 <style>
   .post article{
     text-align: justify;
-    color: #555555
+    color: #6666666
   }
 </style>
 
