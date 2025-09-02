@@ -5,7 +5,7 @@ title: about
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: center
+  align: right
   image: Headshot.jpg
   image_circular: false # crops the image to make it circular
 #  more_info: >
