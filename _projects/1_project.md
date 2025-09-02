@@ -1,14 +1,14 @@
 ---
 layout: page
-title: project 1
-description: Design Space Exploration for High-Efficiency Building
+title: Design Space Exploration for High-Efficiency Building
+description: The project focuses on designing an exploration for building renovation to understand the tradeoff between occupancy (density), comfort, and energy use intensity while balancing operational energy, reducing overall carbon emissions, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-The project focuses on designing an exploration for building renovation to understand the tradeoff between occupancy (density), comfort, and energy use intensity while balancing operational energy, reducing overall carbon emissions, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.
+
 
 
     ---
