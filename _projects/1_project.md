@@ -6,7 +6,7 @@ img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
-redirect: /pdf-viewer/?pdf=/assets/pdf/example_pdf.pdf&title=Design%20Space%20Exploration
+redirect: assets/pdf/example_pdf.pdf
 ---
 
 
