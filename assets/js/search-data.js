@@ -426,9 +426,9 @@ ninja.data = [{
           description: "I had the opportunity to work on Building Code Compliance project for IECC 2021 framework during my internship with AMPS – ARCO Murray in Chicago, USA. Using IESVE, I performed a detailed energy analysis for a self-storage facility, evaluating the building envelope, HVAC, and lighting systems against IECC standards. The project involved generating simulation-based compliance reports, comparing baseline and proposed models, and recommending design adjustments to ensure regulatory approval, and technical documentation for energy permit approval. One of the key outcome was the recommendation to reduce roof and wall insulation levels while still meeting code requirements, which significantly reduced energy costs without compromising compliance.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-a-full-scope-renovation-for-natural-ventilation-using-cfd-analysis",
+          title: 'A full-scope renovation for Natural Ventilation using CFD analysis',
+          description: "This project entails the integration of advanced daylighting simulation and CFD-based natural ventilation analysis to develop passive energy-efficient design strategies for a renovation site in DeKalb, Atlanta, Georgia. Using Climate Consultant, Ladybug and Honeybee tools, and Autodesk CFD, the study combines detailed climatic and site analysis to optimize visual comfort, airflow patterns, and thermal comfort. The study culminates in CFD simulations for natural ventilation performance assessment, analyzing humidity impacts, identifying potential dead zones, and proposing passive design solutions that reduce energy demand while enhancing indoor environmental quality.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
