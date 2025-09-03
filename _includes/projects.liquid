@@ -1,5 +1,5 @@
 <div class="col">
-  <a href="{{ project.url | relative_url }}">
+  <a href="{% if project.cv_pdf contains '://' %}{{ project.cv_pdf }}{% else %}{{ project.cv_pdf | prepend: 'assets/pdf/' | relative_url }}{% endif %}" target="_blank" rel="noopener noreferrer">
     <div class="card h-100 hoverable">
       {% if project.img %}
         {%
@@ -13,21 +13,6 @@
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
-        {% if project.cv_pdf %}
-          <a
-            {% if project.cv_pdf contains '://' %}
-              href="{{ project.cv_pdf }}"
-            {% else %}
-              href="{{ project.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="float-right"
-            style="position: absolute; top: 10px; right: 10px;"
-          >
-            <i class="fa-solid fa-file-pdf"></i>
-          </a>
-        {% endif %}
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
