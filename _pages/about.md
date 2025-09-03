@@ -11,7 +11,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
   <p>Check out my CV</p>
-    <p>cv_pdf: Resume_SharmistaDebnath.pdf</p>
+  cv_pdf: Resume_SharmistaDebnath.pdf
+#   <p>abc</p>
 #    <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
