@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
+title: A full-scope renovation for Natural Ventilation using CFD analysis
+description: This project entails the integration of advanced daylighting simulation and CFD-based natural ventilation analysis to develop passive energy-efficient design strategies for a renovation site in DeKalb, Atlanta, Georgia. Using Climate Consultant, Ladybug and Honeybee tools, and Autodesk CFD, the study combines detailed climatic and site analysis to optimize visual comfort, airflow patterns, and thermal comfort. The study culminates in CFD simulations for natural ventilation performance assessment, analyzing humidity impacts, identifying potential dead zones, and proposing passive design solutions that reduce energy demand while enhancing indoor environmental quality.
 img: assets/img/9.jpg
 importance: 2
 category: work
