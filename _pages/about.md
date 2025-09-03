@@ -32,6 +32,24 @@ social: true # includes social icons at the bottom of the page
     text-align: justify;
     color: #6666666
   }
+  
+  .content-wrapper {
+    overflow: hidden;
+  }
+  
+  .profile.float-right {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 575px) {
+    .profile {
+      float: none !important;
+      width: 100% !important;
+      margin: 0 0 1rem 0 !important;
+      text-align: center;
+    }
+  }
 </style>
 
 My name is Sharmista (Mish) Debnath, and I'm an aspiring Building Performance Specialist with a passion for creating decarbonized, energy-efficient built environments that prioritize occupant health and comfort. Currently pursuing my Master of Science in Architecture with a specialization in High Performance Buildings at the Georgia Institute of Technology, I have well-rounded in building energy modeling, performance analysis, and sustainable design solutions. In my final semester at Georgia Tech, I'm focusing on my research which examines indoor air quality and safety of occupants in the built environment using computational fluid dynamics (CFD) modeling techniques.
