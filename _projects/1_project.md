@@ -6,7 +6,7 @@ img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: true
-redirect: assets/pdf/example_pdf.pdf
+cv_pdf: example_pdf.pdf
 ---
 
 
