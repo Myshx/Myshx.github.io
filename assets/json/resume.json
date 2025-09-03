@@ -1,36 +1,46 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Sharmnista Debnath",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "sdebnath34@gatech.edu",
+    "phone": "(404) 940-8086",
+    "url": "https://myshx.github.io/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "955 Spring St NW",
+      "postalCode": "GA 30309",
+      "city": "Atlanta",
       "countryCode": "US",
-      "region": "California"
+      "region": "Georgia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "sharmista-deb",
+        "url": "www.linkedin.com/in/sharmista-deb"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "AMPS Power Solutions - ARCO MURRAY Design Build - Chicago, USA",
+      "position": "Energy Modelling Intern",
+      "url": "https://psienergy.in/",
+      "startDate": "05-19-2025",
+      "endDate": "08-08-2025",
+      "summary": "Simulated, building performance (heating and cooling load, HVAC system sizing, lighting loads) and optimized building systems using IESVE and CBECC, to support building energy code compliance requirements. Provided solutions which reduced buildings' annual energy and construction costs by 20% - 28% for self-storage buildings. Produced technical documentation and data analysis for IECC, ASHRAE and T24 energy permits.",
+      "highlights": ["Building Performance Analysis, Energy Modelling"]
+    }
+
+    {
+      "name": "PSI Energy Pvt. Ltd. - New Delhi, India",
+      "position": "Energy Analyst Intern",
+      "url": "https://amps-db.com/",
+      "startDate": "02-01-2023",
+      "endDate": "06-30-2023",
+      "summary": "Conducted building performance analysis and optimized annual energy consumption for single-family residential projects via DesignBuilder, focusing on load analysis, thermal comfort, airflow analysis and water optimization. Worked on detailed building energy modelling and analysis for green building certification and performed daylight analysis, glare analysis and curated artificial lighting layout for 5 educational projects by the Government of India. ",
+      "highlights": ["Energy Analysis, Energy Modelling, Decarbonization"]
     }
   ],
   "volunteer": [
@@ -47,7 +57,7 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "Georgia Institute of Technology, Atlanta",
       "location": "Zurich, Switzerland",
       "url": "https://www.uzh.ch/",
       "area": "Software Development",
