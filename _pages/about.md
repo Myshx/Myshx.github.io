@@ -9,7 +9,7 @@ profile:
   image: Headshot.jpg
   image_circular: false # crops the image to make it circular
 #  more_info: >
-  <p>Check out my CV</p>
+#  <p>Check out my CV</p>
 #   <p>abc</p>
 #    <p>Your City, State 12345</p>
 
