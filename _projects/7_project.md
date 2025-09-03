@@ -7,6 +7,7 @@ importance: 1
 category: work
 related_publications: true
 published: true
+cv_pdf: IES.pdf
 ---
 
 Every project has a beautiful feature showcase page.
