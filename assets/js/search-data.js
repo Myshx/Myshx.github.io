@@ -401,9 +401,9 @@ ninja.data = [{
           description: "The objective of this project is to perform a comprehensive energy analysis to support GRIHA green building certification (equivalent to LEED) for a large-scale institutional campus in Sikkim, India. The study integrates simulation workflows using DesignBuilder (Energy Plus), DialuxEvo, and Ecotect to assess building energy performance, daylight sufficiency, artificial lighting compliance, and thermal comfort in response to complex site geometry and climatic challenges. By analyzing façade glazing, envelope compositions, HVAC systems and lighting systems, the project develops recommendations to optimize natural ventilation, daylight distribution, and thermal comfort within the constraints of sustainable building design and certification requirements.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-nextgen-low-energy-residential-prototype",
+          title: 'NextGen - Low Energy Residential Prototype',
+          description: "This particular project focuses on the energy-efficient design and simulation of a high-performance residential prototype for New Delhi, India, utilizing DesignBuilder (Energy Plus). Through annual climate analysis, daylighting optimization, ventilation and airflow modeling, and detailed cooling load calculations, the project develops strategies for envelope improvement, system sizing, and passive design measures. The simulations assess comfort metrics, solar radiation, shading, and ventilation, resulting in actionable recommendations such as double glazing, roof insulation, and optimized shading to reduce annual energy consumption and main cooling loads within targeted comfort bands.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
