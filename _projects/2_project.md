@@ -6,7 +6,7 @@ img: assets/img/3.jpg
 importance: 2
 category: work
 giscus_comments: true
-cv_pdf: IES.pdf
+cv_pdf: Sikkim.pdf
 ---
 
 Every project has a beautiful feature showcase page.
