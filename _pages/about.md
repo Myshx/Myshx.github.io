@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-cv_pdf: Resume_SharmistaDebnath.pdf
 
 profile:
   align: right
