@@ -13,13 +13,13 @@ profile:
 #   <p>abc</p>
 #    <p>Your City, State 12345</p>
 
-cv_pdf: Resume_SharmistaDebnath.pdf # you can also use external links here
+# cv_pdf: Resume_SharmistaDebnath.pdf # you can also use external links here
 # description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+# toc:
+#  sidebar: left
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true # includes social icons at the top of the page
 
 # announcements:
   # enabled: true # includes a list of news items
