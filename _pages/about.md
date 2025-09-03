@@ -58,5 +58,7 @@ As an Energy Modeling Intern at AMPS Power Solutions - ARCO MURRAY Design Build,
 
 As part of my undergraduate thesis, I explored energy efficient buildings and decarbonization by adjusting datasets and developed a net-zero office design that prioritize both energy performance and occupant wellbeing.
 
+cv_pdf: Resume_SharmistaDebnath.pdf # you can also use external links here
+
 My concentration areas include detailed Building Energy Modeling, Indoor Environmental Quality, and Data-Driven Performance Optimization. I am proficient in advanced building performance analysis tools including IESVE, DesignBuilder, eQuest,CBECC, and Grasshopper plugins. I also have experience using tools and technologies such as R programming, jmp and Python (data analysis), Revit, AutoCAD, and Rhino 3D (architectural designing). 
 Please take a moment to explore the different sections of my portfolio website and check out some of my highlighted projects in building performance analysis. If you have any questions or would like to reach out to me, please don't hesitate to contact me at sdebnath34@gatech.edu.
