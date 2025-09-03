@@ -431,9 +431,9 @@ ninja.data = [{
           description: "This project entails the integration of advanced daylighting simulation and CFD-based natural ventilation analysis to develop passive energy-efficient design strategies for a renovation site in DeKalb, Atlanta, Georgia. Using Climate Consultant, Ladybug and Honeybee tools, and Autodesk CFD, the study combines detailed climatic and site analysis to optimize visual comfort, airflow patterns, and thermal comfort. The study culminates in CFD simulations for natural ventilation performance assessment, analyzing humidity impacts, identifying potential dead zones, and proposing passive design solutions that reduce energy demand while enhancing indoor environmental quality.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-micro-grid-feasibility",
+          title: 'Micro-Grid Feasibility',
+          description: "This project investigates the feasibility of implementing a renewable energy microgrid system for the communities of St. Mary’s and Darien, Georgia. It integrates solar energy potential assessments, energy demand analysis, cost modeling, and climate adaptation strategies. The study provides comprehensive recommendations for resilient microgrid design, including photovoltaic system sizing, battery storage, backup generator capacity, stormwater management, and outdoor thermal comfort to support sustainable and climate-adaptive urban infrastructure.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
