@@ -7,6 +7,7 @@ importance: 2
 category: work
 giscus_comments: true
 published: true
+cv_pdf: CFD.pdf
 ---
 
 Every project has a beautiful feature showcase page.
