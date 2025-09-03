@@ -2,7 +2,7 @@
 layout: page
 title: Micro-Grid Feasibility
 description: This project investigates the feasibility of implementing a renewable energy microgrid system for the communities of St. Mary’s and Darien, Georgia. It integrates solar energy potential assessments, energy demand analysis, cost modeling, and climate adaptation strategies. The study provides comprehensive recommendations for resilient microgrid design, including photovoltaic system sizing, battery storage, backup generator capacity, stormwater management, and outdoor thermal comfort to support sustainable and climate-adaptive urban infrastructure.
-img: assets/img/F .jpg
+img: assets/img/F.jpg
 importance: 4
 category: work
 published: true
