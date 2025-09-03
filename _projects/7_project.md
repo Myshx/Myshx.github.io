@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: Building Code Complainace - IECC 2021
+description: I had the opportunity to work on Building Code Compliance project for IECC 2021 framework during my internship with AMPS – ARCO Murray in Chicago, USA. Using IESVE, I performed a detailed energy analysis for a self-storage facility, evaluating the building envelope, HVAC, and lighting systems against IECC standards. The project involved generating simulation-based compliance reports, comparing baseline and proposed models, and recommending design adjustments to ensure regulatory approval, and technical documentation for energy permit approval. One of the key outcome was the recommendation to reduce roof and wall insulation levels while still meeting code requirements, which significantly reduced energy costs without compromising compliance.
 img: assets/img/4.jpg
 importance: 1
 category: work
