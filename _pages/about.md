@@ -19,7 +19,7 @@ profile:
 #  sidebar: left
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the top of the page
+social: true # includes social icons at the bottom of the page
 
 # announcements:
   # enabled: true # includes a list of news items
@@ -35,7 +35,7 @@ social: true # includes social icons at the top of the page
 <style>
   .post article{
     text-align: justify;
-    color: #6666666
+    color: #777777776666666
   }
   
   .content-wrapper {
@@ -43,11 +43,11 @@ social: true # includes social icons at the top of the page
   }
   
   .profile.float-right {
-    margin-left: 1.5rem;
+    margin-left: 1.25rem;
     margin-bottom: 1rem;
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 400px) {
     .profile {
       float: none !important;
       width: 100% !important;
@@ -65,5 +65,5 @@ In my role as an Energy Analyst Intern at PSI Energy Pvt. Ltd., I conducted comp
 
 My concentration areas include detailed Building Energy Modeling, Indoor Environmental Quality, and Data-Driven Performance Optimization. I am proficient in industry-standard tools, including IESVE, DesignBuilder, eQuest, CBECC, and Grasshopper plugins. I also have experience using tools and technologies such as R programming, JMP and Python for advanced data analysis.  I also leverage architectural design software like Revit, AutoCAD, and Rhino 3D to create integrated design solutions.
 
-Please take a moment to explore the different sections of my portfolio website and check out some of my highlighted projects in building performance analysis. If you have any questions or would like to reach out to me, please don’t hesitate to contact me at (sdebnath34@gatech.edu). 
+Please take a moment to explore the different sections of my portfolio website and check out some of my highlighted projects in building performance analysis. If you have any questions or would like to reach out to me, please don’t hesitate to contact me at [sdebnath34@gatech.edu]. 
 
