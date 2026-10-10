@@ -11,7 +11,7 @@ layout: default
         {% assign sorted_projects = site.projects | where: "category", "work" | sort: "importance" %}
         {% for project in sorted_projects %}
         <li class="project-nav-item">
-          <a href="#{{ project.title | slugify }}">{{ project.title }}</a>
+          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
         </li>
         {% endfor %}
       </ul>
@@ -23,7 +23,7 @@ layout: default
     <section class="project-covers">
       {% assign sorted_projects = site.projects | where: "category", "work" | sort: "importance" %}
       {% for project in sorted_projects %}
-      <a class="project-cover" href="#{{ project.title | slugify }}" id="{{ project.title | slugify }}">
+      <a class="project-cover" href="{{ project.url | relative_url }}">
         <div class="cover-image-wrap">
           <div class="cover-image">
             {% if project.img %}

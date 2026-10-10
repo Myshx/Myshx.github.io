@@ -9,71 +9,40 @@ related_publications: true
 cv_pdf: BSDP1.pdf
 ---
 
+## Overview
 
+This project focuses on designing an exploration for building renovation to understand the tradeoff between occupancy (density), comfort, and energy use intensity while balancing operational energy, reducing overall carbon emissions, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.
 
-
-    ---
- #   layout: page
- #   title: project
- #   description: a project with a background image
- #   img: /assets/img/12.jpg
-    ---
+## Project Images
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/A.jpg" title="Building design exploration" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Design space exploration for high-efficiency building renovation focusing on energy optimization and daylight performance.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Key Objectives
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+- Understand tradeoffs between occupancy density, comfort, and energy use intensity
+- Balance operational energy and reduce overall carbon emissions
+- Maintain optimal daylight performance (UDI/ASE metrics)
+- Explore rainwater harvesting potential for sustainable water management
+
+## Methodology
+
+The project employs comprehensive building performance simulation to:
+- Analyze various renovation scenarios
+- Optimize building envelope and systems
+- Evaluate daylight distribution and thermal comfort
+- Assess energy consumption patterns
+
+## Download Full Report
+
+<div class="mt-4">
+  <a href="{{ 'assets/pdf/BSDP1.pdf' | relative_url }}" target="_blank" class="btn btn-primary">
+    <i class="fas fa-file-pdf"></i> View Full Project Report (PDF)
+  </a>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
