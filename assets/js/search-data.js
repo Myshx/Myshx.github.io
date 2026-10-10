@@ -399,21 +399,6 @@ ninja.data = [{
           description: "This particular project focuses on the energy-efficient design and simulation of a high-performance residential prototype for New Delhi, India, utilizing DesignBuilder (Energy Plus). Through annual climate analysis, daylighting optimization, ventilation and airflow modeling, and detailed cooling load calculations, the project develops strategies for envelope improvement, system sizing, and passive design measures. The simulations assess comfort metrics, solar radiation, shading, and ventilation, resulting in actionable recommendations such as double glazing, roof insulation, and optimized shading to reduce annual energy consumption and main cooling loads within targeted comfort bands.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{id: "projects-building-code-complainace-iecc-2021",
           title: 'Building Code Complainace - IECC 2021',
           description: "I had the opportunity to work on Building Code Compliance project for IECC 2021 framework during my internship with AMPS – ARCO Murray in Chicago, USA. Using IESVE, I performed a detailed energy analysis for a self-storage facility, evaluating the building envelope, HVAC, and lighting systems against IECC standards. The project involved generating simulation-based compliance reports, comparing baseline and proposed models, and recommending design adjustments to ensure regulatory approval, and technical documentation for energy permit approval. One of the key outcome was the recommendation to reduce roof and wall insulation levels while still meeting code requirements, which significantly reduced energy costs without compromising compliance.",
