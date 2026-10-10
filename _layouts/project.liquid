@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="projects-sidebar-layout">
+  <!-- Sidebar Navigation -->
+  <aside class="projects-sidebar">
+    <nav class="projects-nav">
+      <ul>
+        <li class="nav-title"><a href="{{ '/projects/' | relative_url }}">WORK</a></li>
+        {% assign sorted_projects = site.projects | where: "category", "work" | sort: "importance" %}
+        {% for project in sorted_projects %}
+        <li class="project-nav-item {% if page.url == project.url %}active{% endif %}">
+          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Project Detail Content -->
+  <main class="projects-main-content project-detail">
+    <article class="post">
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="post-description">{{ page.description }}</p>
+        {% endif %}
+      </header>
+
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </article>
+  </main>
+</div>
