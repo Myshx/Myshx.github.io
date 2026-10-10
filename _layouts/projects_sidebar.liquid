@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="projects-sidebar-layout">
+  <!-- Sidebar Navigation -->
+  <aside class="projects-sidebar">
+    <nav class="projects-nav">
+      <ul>
+        <li class="nav-title"><a href="{{ page.url | relative_url }}" class="active">{{ page.title }}</a></li>
+        {% assign sorted_projects = site.projects | where: "category", "work" | sort: "importance" %}
+        {% for project in sorted_projects %}
+        <li class="project-nav-item">
+          <a href="#{{ project.title | slugify }}">{{ project.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="projects-main-content">
+    <div class="projects-container">
+      {% assign sorted_projects = site.projects | where: "category", "work" | sort: "importance" %}
+      {% for project in sorted_projects %}
+      <section class="project-section" id="{{ project.title | slugify }}">
+        <div class="project-content">
+          <!-- Project Title -->
+          <h2 class="project-title-main">{{ project.title }}</h2>
+          
+          <!-- Project Image -->
+          {% if project.img %}
+          <div class="project-image-wrapper">
+            <a href="{% if project.cv_pdf %}{% if project.cv_pdf contains '://' %}{{ project.cv_pdf }}{% else %}{{ project.cv_pdf | prepend: 'assets/pdf/' | relative_url }}{% endif %}{% else %}#{% endif %}" target="_blank" rel="noopener noreferrer">
+              {% include figure.liquid
+                loading="eager"
+                path=project.img
+                alt=project.title
+                class="project-main-image"
+              %}
+            </a>
+          </div>
+          {% endif %}
+          
+          <!-- Project One-liner Description -->
+          <div class="project-oneliner">
+            <p>{{ project.description }}</p>
+          </div>
+        </div>
+      </section>
+      {% endfor %}
+    </div>
+  </main>
+</div>
