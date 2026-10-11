@@ -53,15 +53,6 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
     Comprehensive retrofitting strategy showing shell-level and core-level upgrades with their purposes and enhancements.
 </div>
 
-<div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/building-diagram.png" title="Building cross-section showing retrofit components" class="img-fluid rounded" %}
-    </div>
-</div>
-<div class="caption">
-    Building cross-section diagram illustrating the preserved historic envelope with key retrofit components including roof R-value, window types (U-value, SHGC), interior shading, infiltration control, wall R-value, floor R-value, ceiling type, and HVAC system placement.
-</div>
-
 ---
 
 ## Methodology
