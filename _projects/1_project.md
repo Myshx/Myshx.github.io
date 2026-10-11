@@ -95,10 +95,8 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 
 ## Results
 
-<div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/results-performance.jpg" title="Performance results" class="img-fluid rounded" %}
-    </div>
+<div class="results-hero-image">
+<img src="{{ 'assets/img/results-performance.jpg' | relative_url }}" alt="Performance results">
 </div>
 
 <div class="row mt-4">

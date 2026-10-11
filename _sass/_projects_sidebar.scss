@@ -209,6 +209,21 @@ img, figure img, .img-fluid {
   box-shadow: none !important;
 }
 
+.results-hero-image {
+  width: calc(100% + 2rem);
+  max-width: none;
+  margin: 0.35rem -1rem 1rem;
+  padding: 0;
+
+  img {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0;
+  }
+}
+
 .centered-small-image {
   display: flex;
   justify-content: center;
