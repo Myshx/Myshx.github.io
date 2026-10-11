@@ -85,13 +85,45 @@
 
 .projects-main-content {
   flex: 1;
-  padding: 0.5rem 0.25rem;
-  max-width: 1600px;
-  margin: 0 auto;
+  padding: 0.5rem 0;
+  max-width: none;
+  margin: 0;
   width: 100%;
   
   @media (max-width: 768px) {
-    padding: 0.5rem 0.25rem;
+    padding: 0.5rem 0;
+  }
+}
+
+// Reduce leftover left/right page margins by 70% on project pages
+// and let project images scale with the wider content area.
+body.wide-project .container[role="main"] {
+  max-width: calc(279px + 70vw);
+  width: 100%;
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+}
+
+body.wide-project {
+  .post,
+  .post article,
+  .post-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .post img,
+  .post figure,
+  .post .img-fluid,
+  .post picture,
+  .post picture img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-covers {
+    width: 100%;
   }
 }
 
