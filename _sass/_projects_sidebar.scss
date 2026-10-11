@@ -168,6 +168,15 @@ html {
   scroll-behavior: smooth;
 }
 
+// Remove shadows from all images globally
+.z-depth-1 {
+  box-shadow: none !important;
+}
+
+img, figure img, .img-fluid {
+  box-shadow: none !important;
+}
+
 // Project detail page specific styles
 .project-detail {
   .post {
