@@ -1,83 +1,54 @@
 ---
 layout: page
 title: A full-scope renovation for Natural Ventilation using CFD analysis
-description: This project entails the integration of advanced daylighting simulation and CFD-based natural ventilation analysis to develop passive energy-efficient design strategies for a renovation site in DeKalb, Atlanta, Georgia. Using Climate Consultant, Ladybug and Honeybee tools, and Autodesk CFD, the study combines detailed climatic and site analysis to optimize visual comfort, airflow patterns, and thermal comfort. The study culminates in CFD simulations for natural ventilation performance assessment, analyzing humidity impacts, identifying potential dead zones, and proposing passive design solutions that reduce energy demand while enhancing indoor environmental quality.
+description: This project investigates energy-efficient design strategies for a site in DeKalb, Atlanta (Climate Zone 3A), using building physics simulations. A detailed site and climatic analysis was conducted to understand solar radiation, wind patterns, and humidity impacts.
 img: assets/img/B .jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
+related_publications: false
 published: true
 cv_pdf: CFD.pdf
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Information
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project investigates energy-efficient design strategies for a site in DeKalb, Atlanta (Climate Zone 3A), using building physics simulations. A detailed site and climatic analysis was conducted to understand solar radiation, wind patterns, and humidity impacts. Based on these findings, a daylighting analysis optimized visual comfort, glare control, and solar access through shading devices and material strategies. To enhance thermal comfort, CFD simulations assessed natural ventilation performance, identifying airflow patterns and potential dead zones. By integrating daylighting and ventilation insights, the project proposes passive design solutions that reduce energy demand while improving indoor environmental quality.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+<div class="image-row-3">
+<img src="{{ 'assets/img/cfd-sky-1.jpg' | relative_url }}" alt="Site sky and solar analysis 1">
+<img src="{{ 'assets/img/cfd-sky-2.jpg' | relative_url }}" alt="Site sky and solar analysis 2">
+<img src="{{ 'assets/img/cfd-sky-3.png' | relative_url }}" alt="Site sky and solar analysis 3">
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+## Environmental Analysis
+
+The site is located in DeKalb, Atlanta, Georgia, within ASHRAE climate zone 3A, characterized by: Hot and humid summers: Temperatures often exceed 30°C (86°F) with high humidity levels. Mild winters: Winters are typically mild without extreme cold conditions. Year-round rainfall: Precipitation is evenly distributed throughout the year, with no pronounced dry season. The site is surrounded by public spaces and small commercial areas, and currently there is a post office. To the north, there is a small cluster of coniferous trees.
+
+<img src="{{ 'assets/img/cfd-climate.jpg' | relative_url }}" alt="Climate analysis" class="img-fluid">
+
+Diurnal Variation: Moderate diurnal temperature variation, especially in summer, indicates the potential for night-time cooling strategies. Moderate Wind Velocities: Between 5.2-10.3 m/s with different prevailing winds from the northwest in winter and the southeast in summer. Change in direction indicates different ventilation strategies. Use landscaping (conifer trees) on the northwest side to reduce cold winter winds and decrease heating loads. Dew Point and Dry Bulb Temperature: close proximity in temperature will lead to early condensation.
+
+---
+
+## Natural Ventilation - Basic
+
+<img src="{{ 'assets/img/cfd-site.png' | relative_url }}" alt="Site CFD and wind rose analysis" class="img-fluid">
+
+<img src="{{ 'assets/img/cfd-room.png' | relative_url }}" alt="Room geometry for natural ventilation" class="img-fluid">
+
+<div class="image-row-3">
+<img src="{{ 'assets/img/cfd-flow-1.gif' | relative_url }}" alt="Natural ventilation CFD 1">
+<img src="{{ 'assets/img/cfd-flow-2.gif' | relative_url }}" alt="Natural ventilation CFD 2">
+<img src="{{ 'assets/img/cfd-flow-3.gif' | relative_url }}" alt="Natural ventilation CFD 3">
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+---
+
+<div class="mt-4 mb-4">
+  <a href="{{ 'assets/pdf/CFD.pdf' | relative_url }}" target="_blank" class="btn btn-primary">
+    <i class="fas fa-file-pdf"></i> View Full Report (PDF)
+  </a>
 </div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
