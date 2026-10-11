@@ -1,82 +1,69 @@
 ---
 layout: page
 title: NextGen - Low Energy Residential Prototype
-description: This particular project focuses on the energy-efficient design and simulation of a high-performance residential prototype for New Delhi, India, utilizing DesignBuilder (Energy Plus). Through annual climate analysis, daylighting optimization, ventilation and airflow modeling, and detailed cooling load calculations, the project develops strategies for envelope improvement, system sizing, and passive design measures. The simulations assess comfort metrics, solar radiation, shading, and ventilation, resulting in actionable recommendations such as double glazing, roof insulation, and optimized shading to reduce annual energy consumption and main cooling loads within targeted comfort bands.
-img: assets/img/E .jpg
-redirect: https://unsplash.com
-importance: 3
+description: The project focuses on improving the daylighting, provision for natural ventilation, the envelope and system sizing and cooling load calculation with the prime aim to reduce the overall annual energy consumption of the building.
+img: assets/img/nextgen-massing.png
+importance: 1
 category: work
+related_publications: false
+published: true
 cv_pdf: High_performance_Residence.pdf
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Information
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Location:** New Delhi, India  
+**Software:** DesignBuilder (EnergyPlus), Ecotect
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The project focuses on improving the daylighting, provision for natural ventilation, the envelope and system sizing and cooling load calculation with the prime aim to reduce the overall annual energy consumption of the building.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+<img src="{{ 'assets/img/nextgen-massing.png' | relative_url }}" alt="NextGen residential prototype massing" class="img-fluid">
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+## Climate Analysis
+
+**Ventilation comfort band hours** — Only 19.1% annual hours lie within the comfort range as per the TSI model of the National Building Code.
+
+**Adaptive comfort band hours** — 60.2% annual hours lie within the comfort range as per the TSI model of the National Building Code.
+
+Delhi’s warm period runs from 28 March to 8 November (above 30°C), and the hot period from 6 April to 30 October (above 32°C). Humidity is lowest from mid-March to mid-June and mid-September to mid-November, and highest through the remaining winter and monsoon months. That split is why the project treats natural ventilation as a seasonal strategy rather than a year-round substitute for cooling.
+
+<img src="{{ 'assets/img/nextgen-comfort-bands.png' | relative_url }}" alt="Ventilation and adaptive comfort band hours" class="img-fluid">
+
+<img src="{{ 'assets/img/nextgen-environment.jpg' | relative_url }}" alt="Site and environmental analysis" class="img-fluid">
+
+---
+
+## Solar Incident Radiation
+
+**Orientation: South.** The windows on the south will experience solar radiation from 11:00 am till 4:00 pm in the month of February to mid-May and from mid-August to mid-November.
+
+For this location the south and southeast façades receive the highest annual radiation on vertical surfaces, followed by east and then west. The longer building axis is kept east–west so those south windows can be shaded and glazed as the main solar-control surface.
+
+<div class="iecc-image-pair nextgen-gif-pair">
+<div class="iecc-image-pair__item">
+<img src="{{ 'assets/img/nextgen-solar-1.gif' | relative_url }}" alt="Incident solar radiation base case">
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class="iecc-image-pair__item">
+<img src="{{ 'assets/img/nextgen-solar-2.gif' | relative_url }}" alt="Incident solar radiation proposed case">
+</div>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Natural Ventilation
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+This diagram represents the natural ventilation pattern (i.e. the software suggests that the movement of air will follow this path) through the residence. The blue arrows represent entrance pathways, and the red arrows represent exit pathways. The thicker and longer the arrow, the more the volume and velocity of air it represents. The large arrow, visible on the right, represents the ventilation exit-path.
+
+The study is run at a wind speed of 2.98 m/s. Air enters on the windward openings, moves through the floor plate, and leaves through the primary exhaust on the right, with additional stack-driven outlets at roof level. Because only 19.1% of annual hours sit in the TSI ventilation comfort band, this path is most useful in the shoulder seasons, when adaptive comfort still covers about 60% of the year. Keeping rooms open along this inlet-to-outlet route — and avoiding partitions that cut the through-path — is what makes the cross-ventilation work. In the hottest months the same openings need shading and the option to close, so the cooling system is not fighting outdoor heat.
+
+<img src="{{ 'assets/img/nextgen-ventilation.png' | relative_url }}" alt="Natural ventilation airflow paths" class="img-fluid">
+
+---
+
+<div class="mt-4 mb-4">
+  <a href="{{ 'assets/pdf/High_performance_Residence.pdf' | relative_url }}" target="_blank" class="btn btn-primary">
+    <i class="fas fa-file-pdf"></i> View Full Report (PDF)
+  </a>
 </div>
-```
-
-{% endraw %}
