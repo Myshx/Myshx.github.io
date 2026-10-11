@@ -406,7 +406,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-nextgen-low-energy-residential-prototype",
           title: 'NextGen - Low Energy Residential Prototype',
-          description: "This particular project focuses on the energy-efficient design and simulation of a high-performance residential prototype for New Delhi, India, utilizing DesignBuilder (Energy Plus). Through annual climate analysis, daylighting optimization, ventilation and airflow modeling, and detailed cooling load calculations, the project develops strategies for envelope improvement, system sizing, and passive design measures. The simulations assess comfort metrics, solar radiation, shading, and ventilation, resulting in actionable recommendations such as double glazing, roof insulation, and optimized shading to reduce annual energy consumption and main cooling loads within targeted comfort bands.",
+          description: "The project focuses on improving the daylighting, provision for natural ventilation, the envelope and system sizing and cooling load calculation with the prime aim to reduce the overall annual energy consumption of the building.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-building-code-complainace-iecc-2021",
