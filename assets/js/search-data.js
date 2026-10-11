@@ -389,6 +389,11 @@ ninja.data = [{
           description: "A CFD-ABS approach to optimizing ventilation and filtration strategies to reduce airborne infection risk in a cardiopulmonary rehabilitation gym. The study examines mixing versus displacement ventilation and MERV-13 filtration under superspreader conditions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-biocrete-a-zero-carbon-building-block-from-crop-waste",
+          title: 'Biocrete: A Zero-Carbon Building Block from Crop Waste',
+          description: "Biomass-based alternative construction material · Research Internship",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
             },},{id: "projects-design-space-exploration-for-high-efficiency-building",
           title: 'Design Space Exploration for High-Efficiency Building',
           description: "The project focuses on designing an exploration for retrofitting 792 Donald Lee Hollowell Parkway NW, Atlanta, Georgia, USA. The project is located in Climate Zone 3, with an area of 1,680 sqf. The aim is to design exploration for building renovation to understand the tradeoff between occupancy (density), comfort and energy use intensity while balancing operational energy, reducing the overall carbon emission, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.",
