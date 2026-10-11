@@ -38,8 +38,6 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 
 ## Retrofitting Strategy
 
-**"Preserve the shell. Reline the core. Retrofit from inside out."**
-
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/retrofitting-strategy.png" title="Retrofitting Strategy Statement" class="img-fluid rounded" %}
@@ -62,6 +60,19 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 </div>
 <div class="caption">
     Building cross-section diagram illustrating the preserved historic envelope with key retrofit components including roof R-value, window types (U-value, SHGC), interior shading, infiltration control, wall R-value, floor R-value, ceiling type, and HVAC system placement.
+</div>
+
+---
+
+## Methodology
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/methodology-workflow.png" title="Design exploration methodology workflow" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="caption">
+    Computational workflow for design space exploration: (1) Read database parameters, (2) Construct building geometry, (3) Configure simulation settings, (4) Generate geometry energy model, and (5) Run simulation to evaluate performance metrics.
 </div>
 
 ---
