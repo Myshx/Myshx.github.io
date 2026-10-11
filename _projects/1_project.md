@@ -70,15 +70,9 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 </div>
 
 <div class="image-row-3">
-<div class="image-row-3__item">
-{% include figure.liquid loading="eager" path="assets/img/assumption-layer-1.gif" title="Envelope layer assembly 1" class="img-fluid rounded" %}
-</div>
-<div class="image-row-3__item">
-{% include figure.liquid loading="eager" path="assets/img/assumption-layer-2.gif" title="Envelope layer assembly 2" class="img-fluid rounded" %}
-</div>
-<div class="image-row-3__item">
-{% include figure.liquid loading="eager" path="assets/img/assumption-layer-3.gif" title="Envelope layer assembly 3" class="img-fluid rounded" %}
-</div>
+<img src="{{ 'assets/img/assumption-layer-1.gif' | relative_url }}" alt="Envelope layer assembly 1">
+<img src="{{ 'assets/img/assumption-layer-2.gif' | relative_url }}" alt="Envelope layer assembly 2">
+<img src="{{ 'assets/img/assumption-layer-3.gif' | relative_url }}" alt="Envelope layer assembly 3">
 </div>
 
 <div class="row mt-4">
