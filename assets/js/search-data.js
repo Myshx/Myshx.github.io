@@ -391,7 +391,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-institutional-energy-modelling-for-green-building-certification",
           title: 'Institutional Energy Modelling for Green Building Certification',
-          description: "The objective of this project is to perform a comprehensive energy analysis to support GRIHA green building certification (equivalent to LEED) for a large-scale institutional campus in Sikkim, India. The study integrates simulation workflows using DesignBuilder (Energy Plus), DialuxEvo, and Ecotect to assess building energy performance, daylight sufficiency, artificial lighting compliance, and thermal comfort in response to complex site geometry and climatic challenges. By analyzing façade glazing, envelope compositions, HVAC systems and lighting systems, the project develops recommendations to optimize natural ventilation, daylight distribution, and thermal comfort within the constraints of sustainable building design and certification requirements.",
+          description: "The objective of this project is to perform a comprehensive energy analysis to support GRIHA green building certification (equivalent to LEED) for a large-scale institutional campus in Sikkim, India. The study integrates simulation workflows using DesignBuilder (Energy Plus), DialuxEvo, and Ecotect to assess building energy performance, daylight sufficiency, artificial lighting compliance, and thermal comfort in response to complex site geometry and climatic challenges.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-nextgen-low-energy-residential-prototype",
