@@ -40,17 +40,8 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/retrofitting-strategy.png" title="Retrofitting Strategy Statement" class="img-fluid rounded" %}
-    </div>
-</div>
-
-<div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/retrofitting-table.png" title="Retrofitting components and upgrades" class="img-fluid rounded" %}
     </div>
-</div>
-<div class="caption">
-    Comprehensive retrofitting strategy showing shell-level and core-level upgrades with their purposes and enhancements.
 </div>
 
 ---
@@ -78,15 +69,21 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
     </div>
 </div>
 
-<div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assumptions-envelope.png" title="Envelope and geometry settings" class="img-fluid rounded" %}
-    </div>
+<div class="image-row-3">
+<div class="image-row-3__item">
+{% include figure.liquid loading="eager" path="assets/img/assumption-layer-1.gif" title="Envelope layer assembly 1" class="img-fluid rounded" %}
+</div>
+<div class="image-row-3__item">
+{% include figure.liquid loading="eager" path="assets/img/assumption-layer-2.gif" title="Envelope layer assembly 2" class="img-fluid rounded" %}
+</div>
+<div class="image-row-3__item">
+{% include figure.liquid loading="eager" path="assets/img/assumption-layer-3.gif" title="Envelope layer assembly 3" class="img-fluid rounded" %}
+</div>
 </div>
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/assumptions-hvac.png" title="Zone and HVAC settings" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/assumption-geometry.png" title="Building geometry settings" class="img-fluid rounded" %}
     </div>
 </div>
 
@@ -106,23 +103,13 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/results-performance.gif" title="Performance results" class="img-fluid rounded" %}
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/results-sensitivity.png" title="Sensitivity analysis results" class="img-fluid rounded" %}
-    </div>
-</div>
-
-<div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/results-performance.png" title="Performance results" class="img-fluid rounded" %}
-    </div>
-</div>
-
----
-
-## Rain Water Harvesting
-
-<div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rainwater-harvesting.png" title="Rainwater harvesting analysis" class="img-fluid rounded" %}
     </div>
 </div>
 
