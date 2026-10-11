@@ -125,3 +125,11 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
         {% include figure.liquid loading="eager" path="assets/img/rainwater-harvesting.png" title="Rainwater harvesting analysis" class="img-fluid rounded" %}
     </div>
 </div>
+
+---
+
+<div class="mt-4 mb-4">
+  <a href="{{ 'assets/pdf/BSDP1.pdf' | relative_url }}" target="_blank" class="btn btn-primary">
+    <i class="fas fa-file-pdf"></i> View Full Report (PDF)
+  </a>
+</div>
