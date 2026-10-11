@@ -291,6 +291,81 @@ img, figure img, .img-fluid {
   }
 }
 
+.biocrete-process {
+  display: flex;
+  justify-content: center;
+  margin: 1.25rem auto;
+
+  img {
+    width: 38% !important;
+    max-width: 300px !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 62% !important;
+      max-width: 260px !important;
+    }
+  }
+}
+
+.biocrete-photo-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 1rem;
+  width: 100%;
+  margin: 1.5rem 0;
+
+  img {
+    width: 100% !important;
+    max-width: 100% !important;
+    aspect-ratio: 1;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.biocrete-clay-alone {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+
+  img {
+    width: 48% !important;
+    max-width: 480px !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 86% !important;
+      max-width: 100% !important;
+    }
+  }
+}
+
+.biocrete-compare {
+  width: 100%;
+  margin: 1.25rem 0 1.5rem;
+
+  th,
+  td {
+    padding: 0.65rem 0.85rem 0.65rem 0;
+    vertical-align: top;
+  }
+
+  thead th:last-child,
+  tbody td:last-child {
+    font-weight: 600;
+  }
+}
+
 .btn.btn-primary {
   display: inline-block;
   padding: 0.75rem 1.5rem;

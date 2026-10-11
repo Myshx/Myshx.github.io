@@ -9,11 +9,7 @@ related_publications: false
 published: true
 ---
 
-## Project Information
-
-Biomass-based alternative construction material · Research Internship
-
-### The problem
+## The problem
 
 The built environment accounts for nearly 40% of global carbon emissions, and building materials alone contribute around 15%. In India, the brick is at the centre of this problem.
 
@@ -23,18 +19,13 @@ Conventional burnt clay bricks are made by procuring and tempering clay, mouldin
 
 At the same time, there is a second crisis happening in the fields. Around 2,020 million tonnes of crop residue are burnt globally every year, and more than 90 million tonnes in India alone, contributing to severe air pollution.
 
-<img src="{{ 'assets/img/biocrete-stats.png' | relative_url }}" alt="Global carbon and crop residue statistics" class="img-fluid">
+<img src="{{ 'assets/img/biocrete-stats.png' | relative_url }}" alt="Global carbon emissions and crop residue statistics" class="img-fluid">
 
-<div class="iecc-image-pair">
-<div class="iecc-image-pair__item">
+<div class="biocrete-clay-alone">
 <img src="{{ 'assets/img/biocrete-clay-bricks.jpg' | relative_url }}" alt="Conventional burnt clay bricks">
 </div>
-<div class="iecc-image-pair__item">
-<img src="{{ 'assets/img/biocrete-block.jpg' | relative_url }}" alt="Biocrete woven building block">
-</div>
-</div>
 
-### The idea
+## The idea
 
 Biocrete brings these two problems together and turns one into a solution for the other. It is a lightweight, biomass-based building material made from agricultural waste (bagasse) bound with lime and water. It keeps crop residue out of the fire and locks it into walls instead.
 
@@ -50,19 +41,56 @@ Unlike fired bricks, Biocrete is made through a simple, low-energy process:
 4. Pour and compact the mixture into the mould
 5. Air-dry for three days. No kiln and no firing are needed.
 
-<img src="{{ 'assets/img/biocrete-process.png' | relative_url }}" alt="Biocrete casting process" class="img-fluid">
+<div class="biocrete-process">
+<img src="{{ 'assets/img/biocrete-process.png' | relative_url }}" alt="Biocrete casting process: mix and cast, press and level, remove mould, let dry">
+</div>
 
 ---
 
 ## How it compares
 
-| Parameter | Burnt Clay Brick | Fly Ash Brick | Biocrete |
-| --- | --- | --- | --- |
-| Compressive strength | 7 MPa | 3.5–30 MPa | 2.0 MPa |
-| Density | 1,800–2,000 kg/m³ | 1,650 kg/m³ | 450 kg/m³ |
-| Thermal conductivity | 0.8 W/mK | 0.856 W/mK | 0.07 W/mK |
-| Embodied carbon | 0.32 kgCO₂e | 0.16 kgCO₂e | 0.061 kgCO₂e |
+<div class="table-responsive">
+<table class="table biocrete-compare">
+  <thead>
+    <tr>
+      <th>Parameter</th>
+      <th>Burnt Clay Brick</th>
+      <th>Fly Ash Brick</th>
+      <th>Biocrete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Compressive strength</td>
+      <td>7 MPa</td>
+      <td>3.5–30 MPa</td>
+      <td>2.0 MPa</td>
+    </tr>
+    <tr>
+      <td>Density</td>
+      <td>1,800–2,000 kg/m³</td>
+      <td>1,650 kg/m³</td>
+      <td>450 kg/m³</td>
+    </tr>
+    <tr>
+      <td>Thermal conductivity</td>
+      <td>0.8 W/mK</td>
+      <td>0.856 W/mK</td>
+      <td>0.07 W/mK</td>
+    </tr>
+    <tr>
+      <td>Embodied carbon</td>
+      <td>0.32 kgCO₂e</td>
+      <td>0.16 kgCO₂e</td>
+      <td>0.061 kgCO₂e</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 Biocrete is about four times lighter than clay brick and over ten times more insulating, with roughly one-fifth of the embodied carbon. Its lower compressive strength makes it best suited to non-load-bearing walls, partitions, and infill panels. In these uses, its thermal performance can significantly reduce cooling loads in hot climates.
 
-<img src="{{ 'assets/img/biocrete-install.jpg' | relative_url }}" alt="Biocrete block assembly" class="img-fluid">
+<div class="biocrete-photo-grid">
+<img src="{{ 'assets/img/biocrete-block.jpg' | relative_url }}" alt="Biocrete woven building block">
+<img src="{{ 'assets/img/biocrete-install.jpg' | relative_url }}" alt="Biocrete block assembly">
+</div>
