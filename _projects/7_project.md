@@ -16,13 +16,13 @@ The project aimed to run an energy code compliance analysis for a self-storage f
 
 ---
 
-<div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/iecc-thermal.jpg" title="IECC thermal space types" class="img-fluid rounded" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/iecc-construction.jpg" title="IECC proposed construction assemblies" class="img-fluid rounded" %}
-    </div>
+<div class="iecc-image-pair">
+<div class="iecc-image-pair__item">
+{% include figure.liquid loading="eager" path="assets/img/iecc-thermal.jpg" title="IECC thermal space types" class="img-fluid rounded" %}
+</div>
+<div class="iecc-image-pair__item">
+{% include figure.liquid loading="eager" path="assets/img/iecc-construction.jpg" title="IECC proposed construction assemblies" class="img-fluid rounded" %}
+</div>
 </div>
 
 <div class="row mt-4">

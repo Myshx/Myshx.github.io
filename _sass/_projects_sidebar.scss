@@ -209,6 +209,30 @@ img, figure img, .img-fluid {
   box-shadow: none !important;
 }
 
+.iecc-image-pair {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 1rem;
+  width: 100%;
+  margin: 1.5rem 0;
+
+  .iecc-image-pair__item {
+    flex: 1 1 50%;
+    min-width: 0;
+    width: 50%;
+  }
+
+  figure,
+  picture,
+  img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+  }
+}
+
 .btn.btn-primary {
   display: inline-block;
   padding: 0.75rem 1.5rem;
