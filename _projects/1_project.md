@@ -1,12 +1,22 @@
 ---
 layout: page
 title: Design Space Exploration for High-Efficiency Building
-description: The project focuses on designing an exploration for building renovation to understand the tradeoff between occupancy (density), comfort, and energy use intensity while balancing operational energy, reducing overall carbon emissions, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.
+description: The project focuses on designing an exploration for retrofitting 792 Donald Lee Hollowell Parkway NW, Atlanta, Georgia, USA. The project is located in Climate Zone 3, with an area of 1,680 sqf. The aim is to design exploration for building renovation to understand the tradeoff between occupancy (density), comfort and energy use intensity while balancing operational energy, reducing the overall carbon emission, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.
 img: assets/img/A.jpg
 importance: 1
 category: work
 related_publications: true
 cv_pdf: BSDP1.pdf
+---
+
+## Project Information
+
+**Location:** 792 Donald Lee Hollowell Parkway NW, Atlanta, Georgia, USA  
+**Climate Zone:** 3  
+**Building Area:** 1,680 sq ft
+
+The project focuses on designing an exploration for retrofitting 792 Donald Lee Hollowell Parkway NW, Atlanta, Georgia, USA. The project is located in Climate Zone 3, with an area of 1,680 sqf. The aim is to design exploration for building renovation to understand the tradeoff between occupancy (density), comfort and energy use intensity while balancing operational energy, reducing the overall carbon emission, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.
+
 ---
 
 Every project has a beautiful feature showcase page.
