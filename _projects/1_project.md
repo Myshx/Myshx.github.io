@@ -68,6 +68,30 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 
 ---
 
+## Assumptions
+
+### Weather Files
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/weather-files.png" title="Current and future weather files comparison" class="img-fluid rounded" %}
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/assumptions-envelope.png" title="Envelope and geometry settings" class="img-fluid rounded" %}
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/assumptions-hvac.png" title="Zone and HVAC settings" class="img-fluid rounded" %}
+    </div>
+</div>
+
+---
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded" %}
