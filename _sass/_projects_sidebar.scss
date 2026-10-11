@@ -209,6 +209,22 @@ img, figure img, .img-fluid {
   box-shadow: none !important;
 }
 
+.centered-small-image {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+
+  figure,
+  picture,
+  img {
+    width: 42% !important;
+    max-width: 420px !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .image-row-3 {
   display: flex;
   flex-direction: row;

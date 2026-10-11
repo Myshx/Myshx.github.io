@@ -1,82 +1,71 @@
 ---
 layout: page
 title: Institutional Energy Modelling for Green Building Certification
-description: The objective of this project is to perform a comprehensive energy analysis to support GRIHA green building certification (equivalent to LEED) for a large-scale institutional campus in Sikkim, India. The study integrates simulation workflows using DesignBuilder (Energy Plus), DialuxEvo, and Ecotect to assess building energy performance, daylight sufficiency, artificial lighting compliance, and thermal comfort in response to complex site geometry and climatic challenges. By analyzing façade glazing, envelope compositions, HVAC systems and lighting systems, the project develops recommendations to optimize natural ventilation, daylight distribution, and thermal comfort within the constraints of sustainable building design and certification requirements.
+description: The objective of this project is to perform a comprehensive energy analysis to support GRIHA green building certification (equivalent to LEED) for a large-scale institutional campus in Sikkim, India. The study integrates simulation workflows using DesignBuilder (Energy Plus), DialuxEvo, and Ecotect to assess building energy performance, daylight sufficiency, artificial lighting compliance, and thermal comfort in response to complex site geometry and climatic challenges.
 img: assets/img/D.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
+related_publications: false
 cv_pdf: Sikkim.pdf
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Information
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The objective of this project is to perform a comprehensive energy analysis to support GRIHA green building certification (equivalent to LEED) for a large-scale institutional campus in Sikkim, India. The study integrates simulation workflows using DesignBuilder (Energy Plus), DialuxEvo, and Ecotect to assess building energy performance, daylight sufficiency, artificial lighting compliance, and thermal comfort in response to complex site geometry and climatic challenges. By analyzing façade glazing, envelope compositions, HVAC systems and lighting systems, the project develops recommendations to optimize natural ventilation, daylight distribution, and thermal comfort within the constraints of sustainable building design and certification requirements.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="centered-small-image">
+{% include figure.liquid loading="eager" path="assets/img/sikkim-massing.png" title="Institutional building massing" class="img-fluid rounded" %}
+</div>
 
-<div class="row">
+---
+
+## Daylight Input Parameters
+
+<div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sikkim-daylight-inputs.png" title="Daylight input parameters" class="img-fluid rounded" %}
     </div>
+</div>
+
+---
+
+## Results
+
+<div class="image-row-3">
+<div class="image-row-3__item">
+{% include figure.liquid loading="eager" path="assets/img/sikkim-improved-da.png" title="Improved daylight autonomy" class="img-fluid rounded" %}
+</div>
+<div class="image-row-3__item">
+{% include figure.liquid loading="eager" path="assets/img/sikkim-basecase-da.png" title="Base case daylight autonomy" class="img-fluid rounded" %}
+</div>
+<div class="image-row-3__item">
+{% include figure.liquid loading="eager" path="assets/img/sikkim-floorplan.png" title="Window distribution floor plan" class="img-fluid rounded" %}
+</div>
+</div>
+
+<div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sikkim-daylight-overview.png" title="Daylight analysis overview" class="img-fluid rounded" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="image-row-3">
+<div class="image-row-3__item">
+{% include figure.liquid loading="eager" path="assets/img/sikkim-heatmap-1.png" title="Daylight heatmap 1" class="img-fluid rounded" %}
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class="image-row-3__item">
+{% include figure.liquid loading="eager" path="assets/img/sikkim-heatmap-2.png" title="Daylight heatmap 2" class="img-fluid rounded" %}
+</div>
+<div class="image-row-3__item">
+{% include figure.liquid loading="eager" path="assets/img/sikkim-glazing-plan.png" title="Glazing type floor plan" class="img-fluid rounded" %}
+</div>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="mt-4 mb-4">
+  <a href="{{ 'assets/pdf/Sikkim.pdf' | relative_url }}" target="_blank" class="btn btn-primary">
+    <i class="fas fa-file-pdf"></i> View Full Report (PDF)
+  </a>
 </div>
-```
-
-{% endraw %}
