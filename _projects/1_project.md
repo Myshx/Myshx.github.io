@@ -33,6 +33,30 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 <div class="caption">
     Design space exploration showing 3D building models with envelope analysis, occupancy density studies, and daylight performance optimization.
 </div>
+
+---
+
+## Retrofitting Strategy
+
+**"Preserve the shell. Reline the core. Retrofit from inside out."**
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/retrofitting-strategy.png" title="Retrofitting Strategy Statement" class="img-fluid rounded" %}
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/retrofitting-table.png" title="Retrofitting components and upgrades" class="img-fluid rounded" %}
+    </div>
+</div>
+<div class="caption">
+    Comprehensive retrofitting strategy showing shell-level and core-level upgrades with their purposes and enhancements.
+</div>
+
+---
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded" %}
