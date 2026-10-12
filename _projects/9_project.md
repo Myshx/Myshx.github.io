@@ -22,7 +22,7 @@ This project investigates the microgrid feasibility for St. Mary’s and Darien,
 
 ---
 
-## Solar Energy — St. Marys
+## Solar Energy - St. Marys
 
 The Osborne Street corridor is treated as a high-resilience microgrid. Roof-mounted PV is sized from measured roof area and local radiation rather than a generic per-house kit.
 
