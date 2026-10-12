@@ -2,7 +2,7 @@
 layout: page
 title: RESUME
 permalink: /resume/
-description: 
+description:
 nav: true
 nav_order: 4
 ---
@@ -10,12 +10,12 @@ nav_order: 4
 <div class="resume-page">
 
 <div class="resume-head">
-  <h2>Sharmista (Mish) Debnath</h2>
+  <p class="resume-name">Sharmista (Mish) Debnath</p>
   <p class="resume-creds">LEED Green Associate · Assoc. AIA Member · IBPSA Dallas Chapter Member</p>
   <p class="resume-contact">Dallas, TX (open to relocation) · +1 (404) 940-8086 · <a href="mailto:sharmista.deb25@gmail.com">sharmista.deb25@gmail.com</a> · <a href="https://linkedin.com/in/sharmista-deb" target="_blank" rel="noopener">linkedin.com/in/sharmista-deb</a></p>
 </div>
 
-## Work Experience
+<h2>Work Experience</h2>
 
 <div class="resume-job">
   <div class="resume-row">
@@ -23,7 +23,7 @@ nav_order: 4
     <span>Dallas, TX</span>
   </div>
   <div class="resume-row resume-role">
-    <span>Graduate Enclosure Consultant I</span>
+    <strong>Graduate Enclosure Consultant I</strong>
     <span>Feb 2026 – Present</span>
   </div>
   <ul>
@@ -40,7 +40,7 @@ nav_order: 4
     <span>Atlanta, GA</span>
   </div>
   <div class="resume-row resume-role">
-    <span>Graduate Research Assistant</span>
+    <strong>Graduate Research Assistant</strong>
     <span>Sep 2025 – Dec 2025</span>
   </div>
   <ul>
@@ -55,7 +55,7 @@ nav_order: 4
     <span>Chicago, IL</span>
   </div>
   <div class="resume-row resume-role">
-    <span>Energy Modeling Intern</span>
+    <strong>Energy Modeling Intern</strong>
     <span>May 2025 – Aug 2025</span>
   </div>
   <ul>
@@ -71,7 +71,7 @@ nav_order: 4
     <span>New Delhi, India</span>
   </div>
   <div class="resume-row resume-role">
-    <span>Energy Analyst Intern</span>
+    <strong>Energy Analyst Intern</strong>
     <span>Feb 2023 – Jul 2023</span>
   </div>
   <ul>
@@ -88,7 +88,7 @@ nav_order: 4
     <span>New Delhi, India</span>
   </div>
   <div class="resume-row resume-role">
-    <span>Research Intern</span>
+    <strong>Research Intern</strong>
     <span>Jul – Aug 2022</span>
   </div>
   <ul>
@@ -96,14 +96,15 @@ nav_order: 4
   </ul>
 </div>
 
-## Software Skills
+<h2>Software Skills</h2>
+<ul>
+  <li><strong>Building Performance Analysis:</strong> IESVE, EnergyPlus, CBECC, DesignBuilder, eQUEST, OneClick LCA</li>
+  <li><strong>Building Environmental Analysis:</strong> Grasshopper plugins — Climate Studio, Ladybug and Honeybee, Eddy3D; OpenFOAM (CFD); Ansys Fluent; THERM; WUFI</li>
+  <li><strong>Data Analysis &amp; Programming:</strong> R, Python, JMP, Excel</li>
+  <li><strong>Architectural Design and Modelling:</strong> Revit, AutoCAD, Rhino 3D, SketchUp</li>
+</ul>
 
-- **Building Performance Analysis:** IESVE, EnergyPlus, CBECC, DesignBuilder, eQUEST, OneClick LCA
-- **Building Environmental Analysis:** Grasshopper plugins — Climate Studio, Ladybug and Honeybee, Eddy3D; OpenFOAM (CFD); Ansys Fluent; THERM; WUFI
-- **Data Analysis & Programming:** R, Python, JMP, Excel
-- **Architectural Design and Modelling:** Revit, AutoCAD, Rhino 3D, SketchUp
-
-## Education
+<h2>Education</h2>
 
 <div class="resume-job">
   <div class="resume-row">
@@ -111,7 +112,7 @@ nav_order: 4
     <span>Atlanta, GA</span>
   </div>
   <div class="resume-row resume-role">
-    <span>Master of Science in Architecture (High Performance Buildings)</span>
+    <strong>Master of Science in Architecture (High Performance Buildings)</strong>
     <span>Jul 2024 – Dec 2025</span>
   </div>
   <p>GPA 3.80 / 4.0. Courses: Building Physics Modelling, Data Driven Methods, Building Simulation in Design Practice, Statistical Methods — Regression Analysis, Computing Resilient Buildings, Surrogate Modelling for Urban Regeneration.</p>
@@ -123,7 +124,7 @@ nav_order: 4
     <span>Manipal, India</span>
   </div>
   <div class="resume-row resume-role">
-    <span>Bachelor of Architecture; Minor in Smart Cities</span>
+    <strong>Bachelor of Architecture; Minor in Smart Cities</strong>
     <span>Jul 2019 – May 2024</span>
   </div>
   <p>GPA 3.50 / 4.0. Courses: Architectural Design and Detailing, Building Construction and Materials, HVAC — MEP (Building Systems), Building Performance and Compliance, Climate Responsive Architecture (Winter School, Manipal University Jaipur).</p>
@@ -133,24 +134,28 @@ nav_order: 4
   </ul>
 </div>
 
-## Academic Projects
+<h2>Academic Projects</h2>
+<ul>
+  <li><strong>Design Space Exploration for High Efficiency Buildings (2025).</strong> Constructed a computational design space for building retrofits and performed sensitivity analysis to optimize floor space and visual comfort while minimizing annual energy consumption.</li>
+  <li><strong>Calibrating a Net-Zero Corporate Office Space Promoting Occupants Health and Wellbeing — Bachelor’s Thesis (2024).</strong> Designed a zero-energy hybrid office addressing decarbonization through active and passive measures, focusing on minimizing EPI and reducing CO₂ emissions.</li>
+</ul>
 
-- **Design Space Exploration for High Efficiency Buildings (2025).** Constructed a computational design space for building retrofits and performed sensitivity analysis to optimize floor space and visual comfort while minimizing annual energy consumption.
-- **Calibrating a Net-Zero Corporate Office Space Promoting Occupants Health and Wellbeing — Bachelor’s Thesis (2024).** Designed a zero-energy hybrid office addressing decarbonization through active and passive measures, focusing on minimizing EPI and reducing CO₂ emissions.
+<h2>Publications</h2>
+<ul>
+  <li><strong>Evaluating Ventilation Strategies using CFD: Impacts on Occupant Safety and Thermal Comfort in Isolated ICU Settings (May 2026).</strong> Examined ventilation strategies and their impact on occupant safety and thermal comfort in intensive care units using computational fluid dynamics. Abstract accepted, SIGraDi 2026.</li>
+  <li><strong>Quantifying Airflow Pathogen Dynamics to Optimize Ventilation and Filtration Strategies (Nov 2025).</strong> Modeled airborne pathogen risk and filtration in a high-intensity environment using steady-state CFD and agent-based simulation to optimize indoor air quality. SIGraDi 2025.</li>
+</ul>
 
-## Publications
+<h2>Professional Involvement</h2>
+<ul>
+  <li><strong>Scientific Committee member</strong> for the SIGraDi conference, supporting curation and peer evaluation of submitted research (Apr 2026 – Present).</li>
+  <li><strong>Active member</strong> of the IBPSA local chapter in Dallas, contributing to building performance simulation research and the professional community (Mar 2026 – Present).</li>
+  <li><strong>Former member</strong> of the ASHRAE Student Chapter in Atlanta (Jul 2025 – Dec 2025).</li>
+</ul>
 
-- **Evaluating Ventilation Strategies using CFD: Impacts on Occupant Safety and Thermal Comfort in Isolated ICU Settings (May 2026).** Examined ventilation strategies and their impact on occupant safety and thermal comfort in intensive care units using computational fluid dynamics. Abstract accepted, SIGraDi 2026.
-- **Quantifying Airflow Pathogen Dynamics to Optimize Ventilation and Filtration Strategies (Nov 2025).** Modeled airborne pathogen risk and filtration in a high-intensity environment using steady-state CFD and agent-based simulation to optimize indoor air quality. SIGraDi 2025.
-
-## Professional Involvement
-
-- Scientific Committee member for the SIGraDi conference, supporting curation and peer evaluation of submitted research (Apr 2026 – Present).
-- Active member of the IBPSA local chapter in Dallas, contributing to building performance simulation research and the professional community (Mar 2026 – Present).
-- Former member of the ASHRAE Student Chapter in Atlanta (Jul 2025 – Dec 2025).
-
-## Co-curricular Activities
-
-- Presented “Energy Predictor: surrogate energy model” at the Georgia Undergraduate Research Conference hosted by Emory Oxford College (Nov 2024).
+<h2>Co-curricular Activities</h2>
+<ul>
+  <li>Presented <strong>“Energy Predictor: surrogate energy model”</strong> at the Georgia Undergraduate Research Conference hosted by Emory Oxford College (Nov 2024).</li>
+</ul>
 
 </div>
