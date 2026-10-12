@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Institutional Energy Modelling for Green Building Certification
+title: Energy Modelling for Green Building Certification
 description: The objective of this project is to perform a comprehensive energy analysis to support GRIHA green building certification (equivalent to LEED) for a large-scale institutional campus in Sikkim, India. The study integrates simulation workflows using DesignBuilder (Energy Plus), DialuxEvo, and Ecotect to assess building energy performance, daylight sufficiency, artificial lighting compliance, and thermal comfort in response to complex site geometry and climatic challenges.
 img: assets/img/D.jpg
-importance: 2
+importance: 4
 category: work
 giscus_comments: false
 related_publications: false

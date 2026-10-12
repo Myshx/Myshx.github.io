@@ -1,9 +1,9 @@
 ---
 layout: page
-title: A full-scope renovation for Natural Ventilation using CFD analysis
+title: Environmental Performance Simulation for Natural Ventilation
 description: This project investigates energy-efficient design strategies for a site in DeKalb, Atlanta (Climate Zone 3A), using building physics simulations. A detailed site and climatic analysis was conducted to understand solar radiation, wind patterns, and humidity impacts.
 img: assets/img/B .jpg
-importance: 2
+importance: 5
 category: work
 giscus_comments: false
 related_publications: false

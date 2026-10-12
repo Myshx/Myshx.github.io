@@ -3,7 +3,7 @@ layout: page
 title: Micro-Grid Feasibility
 description: This project investigates the microgrid feasibility for St. Mary’s and Darien, Georgia, focusing on resilience, solar energy potential, and sustainable community infrastructure. Conducted as a collaborative class effort between the Urban Design Studio and the High Performance Building Lab, the work combines site-specific solar potential assessment, energy demand analysis, cost modeling, and climate adaptation scenarios—including rainfall, outdoor comfort, and stormwater management. The integrated approach provides comprehensive recommendations for efficient microgrid design, renewable energy adoption, and climate-resilient urban planning tailored to the needs of these Georgia communities.
 img: assets/img/microgrid-solar.jpg
-importance: 1
+importance: 8
 category: work
 related_publications: false
 published: true

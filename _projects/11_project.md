@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Biocrete: A Zero-Carbon Building Block from Crop Waste"
+title: "Biocrete: A Zero-Carbon Building Block"
 description: Biomass-based alternative construction material · Research Internship
 img: assets/img/biocrete-block.jpg
-importance: 1
+importance: 7
 category: work
 related_publications: false
 published: true

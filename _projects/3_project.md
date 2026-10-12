@@ -1,9 +1,9 @@
 ---
 layout: page
-title: NextGen - Low Energy Residential Prototype
+title: Low Energy Residential Prototype
 description: The project focuses on improving the daylighting, provision for natural ventilation, the envelope and system sizing and cooling load calculation with the prime aim to reduce the overall annual energy consumption of the building.
 img: assets/img/nextgen-massing.png
-importance: 1
+importance: 6
 category: work
 related_publications: false
 published: true

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Airflow-Pathogen Spread Dynamics
+title: Airflow-Pathogen Spread Dynamics using CFD
 description: A CFD-ABS approach to optimizing ventilation and filtration strategies to reduce airborne infection risk in a cardiopulmonary rehabilitation gym. The study examines mixing versus displacement ventilation and MERV-13 filtration under superspreader conditions.
 img: assets/img/sigradi-cover.png
-importance: 1
+importance: 2
 category: work
 related_publications: false
 published: true

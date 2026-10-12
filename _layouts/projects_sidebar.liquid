@@ -3,11 +3,13 @@ layout: default
 ---
 
 <div class="projects-sidebar-layout">
-  <!-- Sidebar Navigation -->
   <aside class="projects-sidebar">
+    <a class="sidebar-name" href="{{ '/' | relative_url }}">
+      {{ site.first_name }} {{ site.last_name }}
+    </a>
     <nav class="projects-nav">
       <ul>
-        <li class="nav-title"><a href="{{ page.url | relative_url }}" class="active">{{ page.title }}</a></li>
+        <li class="nav-title"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
         {% assign sorted_projects = site.projects | where: "category", "work" | sort: "importance" %}
         {% for project in sorted_projects %}
         <li class="project-nav-item">
@@ -16,33 +18,22 @@ layout: default
         {% endfor %}
       </ul>
     </nav>
+    <div class="sidebar-footer">
+      <a href="{{ '/' | relative_url }}">About</a>
+    </div>
   </aside>
 
-  <!-- Main Content Area -->
   <main class="projects-main-content">
     <section class="project-covers">
       {% assign sorted_projects = site.projects | where: "category", "work" | sort: "importance" %}
       {% for project in sorted_projects %}
       <a class="project-cover" href="{{ project.url | relative_url }}">
-        <div class="cover-image-wrap">
-          <div class="cover-image">
-            {% if project.img %}
-            {% include figure.liquid
-              loading="eager"
-              path=project.img
-              alt=project.title
-              class="cover__img"
-            %}
-            {% endif %}
-          </div>
+        <div class="cover-image">
+          {% if project.img %}
+          <img src="{{ project.img | relative_url }}" alt="{{ project.title }}">
+          {% endif %}
         </div>
-        <div class="details-wrap">
-          <div class="details">
-            <div class="details-inner">
-              <div class="title">{{ project.title }}</div>
-            </div>
-          </div>
-        </div>
+        <div class="title">{{ project.title }}</div>
       </a>
       {% endfor %}
     </section>

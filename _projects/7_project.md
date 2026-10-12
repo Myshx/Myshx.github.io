@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Building Code Complainace - IECC 2021
+title: Building Energy Code Complaince
 description: The project aimed to run an energy code compliance analysis for a self-storage facility using IESVE. The study evaluated in detail the building envelope, HVAC, and lighting systems against IECC 2021 standards.
 img: assets/img/C .jpg
-importance: 1
+importance: 3
 category: work
 related_publications: false
 published: true

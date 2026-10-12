@@ -16,7 +16,7 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if page.layout == 'projects_sidebar' or page.category == 'work' %} wide-project{% endif %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if page.layout == 'projects_sidebar' or page.category == 'work' %} wide-project{% endif %}{% if page.layout == 'projects_sidebar' %} work-index{% endif %}">
     <!-- Header -->
     {% include header.liquid %}
 
