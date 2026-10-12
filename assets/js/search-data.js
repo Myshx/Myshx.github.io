@@ -384,38 +384,38 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "projects-airflow-pathogen-spread-dynamics",
-          title: 'Airflow-Pathogen Spread Dynamics',
+            },},{id: "projects-airflow-pathogen-spread-dynamics-using-cfd",
+          title: 'Airflow-Pathogen Spread Dynamics using CFD',
           description: "A CFD-ABS approach to optimizing ventilation and filtration strategies to reduce airborne infection risk in a cardiopulmonary rehabilitation gym. The study examines mixing versus displacement ventilation and MERV-13 filtration under superspreader conditions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
-            },},{id: "projects-biocrete-a-zero-carbon-building-block-from-crop-waste",
-          title: 'Biocrete: A Zero-Carbon Building Block from Crop Waste',
+            },},{id: "projects-biocrete-a-zero-carbon-building-block",
+          title: 'Biocrete: A Zero-Carbon Building Block',
           description: "Biomass-based alternative construction material · Research Internship",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
-            },},{id: "projects-design-space-exploration-for-high-efficiency-building",
-          title: 'Design Space Exploration for High-Efficiency Building',
+            },},{id: "projects-design-space-exploration-for-high-efficiency-buildings",
+          title: 'Design Space Exploration for High Efficiency Buildings',
           description: "The project focuses on designing an exploration for retrofitting 792 Donald Lee Hollowell Parkway NW, Atlanta, Georgia, USA. The project is located in Climate Zone 3, with an area of 1,680 sqf. The aim is to design exploration for building renovation to understand the tradeoff between occupancy (density), comfort and energy use intensity while balancing operational energy, reducing the overall carbon emission, and maintaining daylight performance (UDI/ASE). Additionally, explore rainwater harvesting potential.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-institutional-energy-modelling-for-green-building-certification",
-          title: 'Institutional Energy Modelling for Green Building Certification',
+            },},{id: "projects-energy-modelling-for-green-building-certification",
+          title: 'Energy Modelling for Green Building Certification',
           description: "The objective of this project is to perform a comprehensive energy analysis to support GRIHA green building certification (equivalent to LEED) for a large-scale institutional campus in Sikkim, India. The study integrates simulation workflows using DesignBuilder (Energy Plus), DialuxEvo, and Ecotect to assess building energy performance, daylight sufficiency, artificial lighting compliance, and thermal comfort in response to complex site geometry and climatic challenges.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-nextgen-low-energy-residential-prototype",
-          title: 'NextGen - Low Energy Residential Prototype',
+            },},{id: "projects-low-energy-residential-prototype",
+          title: 'Low Energy Residential Prototype',
           description: "The project focuses on improving the daylighting, provision for natural ventilation, the envelope and system sizing and cooling load calculation with the prime aim to reduce the overall annual energy consumption of the building.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-building-code-complainace-iecc-2021",
-          title: 'Building Code Complainace - IECC 2021',
+            },},{id: "projects-building-energy-code-complaince",
+          title: 'Building Energy Code Complaince',
           description: "The project aimed to run an energy code compliance analysis for a self-storage facility using IESVE. The study evaluated in detail the building envelope, HVAC, and lighting systems against IECC 2021 standards.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-a-full-scope-renovation-for-natural-ventilation-using-cfd-analysis",
-          title: 'A full-scope renovation for Natural Ventilation using CFD analysis',
+            },},{id: "projects-environmental-performance-simulation-for-natural-ventilation",
+          title: 'Environmental Performance Simulation for Natural Ventilation',
           description: "This project investigates energy-efficient design strategies for a site in DeKalb, Atlanta (Climate Zone 3A), using building physics simulations. A detailed site and climatic analysis was conducted to understand solar radiation, wind patterns, and humidity impacts.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
