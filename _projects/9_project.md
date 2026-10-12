@@ -34,11 +34,11 @@ Annual solar radiation on the site is 1,819 kWh/m²·yr. Available roof area is 
 
 ## Climate Analysis
 
-Darien’s climate brief is coastal: warm, humid, and increasingly wet under some futures. Extreme-rainfall projections for 2035 and 2060 are compared with the historical record across three storylines — Hot/Dry, Central, and Warm/Wet. Months above the zero line get wetter than the site average; months below get drier. The spread between storylines is the design problem: the microgrid and the ground plane both have to absorb a range, not a single forecast.
+The monthly solar-exposure plot is the climate driver for the St. Marys array. Annual radiation is 1,819 kWh/m²·yr, but it is not spread evenly: output climbs through spring, peaks from May to August, and drops sharply in November and December. That summer-heavy profile is why storage and an 800 kW backup are sized to critical loads rather than to a flat year-round yield.
 
-Stormwater performance is read through hydrologic soil group, saturated hydraulic conductivity, and surface slope. Soils with higher conductivity and flatter slopes infiltrate more and shed less. That mapping sits under the energy work because a resilient microgrid still fails if the streets and equipment pads flood. Rainwater catchment on the study blocks can harvest about 988,415 gallons per year; fifteen 24 × 20 ft cisterns would store that yield, using the Stafford / Cumberland Island TMY weather file.
+The same coastal climate also sets the rainfall and comfort work. Extreme-rainfall projections for 2035 and 2060 span Hot/Dry, Central, and Warm/Wet storylines, and rainwater catchment on the study blocks can harvest about 988,415 gallons per year. The monthly radiation curve and those wetter futures have to be read together: generation is highest in the months when outdoor heat and stormwater are also at their most demanding.
 
-<img src="{{ 'assets/img/microgrid-climate.jpg' | relative_url }}" alt="Stormwater and future rainfall climate analysis" class="img-fluid">
+<img src="{{ 'assets/img/microgrid-climate.gif' | relative_url }}" alt="Monthly solar exposure and climate resource for St. Marys" class="img-fluid">
 
 ---
 
