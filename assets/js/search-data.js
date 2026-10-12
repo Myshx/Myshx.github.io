@@ -421,7 +421,7 @@ ninja.data = [{
               window.location.href = "/projects/8_project/";
             },},{id: "projects-micro-grid-feasibility",
           title: 'Micro-Grid Feasibility',
-          description: "This project investigates the feasibility of implementing a renewable energy microgrid system for the communities of St. Mary’s and Darien, Georgia. It integrates solar energy potential assessments, energy demand analysis, cost modeling, and climate adaptation strategies. The study provides comprehensive recommendations for resilient microgrid design, including photovoltaic system sizing, battery storage, backup generator capacity, stormwater management, and outdoor thermal comfort to support sustainable and climate-adaptive urban infrastructure.",
+          description: "This project investigates the microgrid feasibility for St. Mary’s and Darien, Georgia, focusing on resilience, solar energy potential, and sustainable community infrastructure. Conducted as a collaborative class effort between the Urban Design Studio and the High Performance Building Lab, the work combines site-specific solar potential assessment, energy demand analysis, cost modeling, and climate adaptation scenarios—including rainfall, outdoor comfort, and stormwater management. The integrated approach provides comprehensive recommendations for efficient microgrid design, renewable energy adoption, and climate-resilient urban planning tailored to the needs of these Georgia communities.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
