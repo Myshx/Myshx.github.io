@@ -38,6 +38,8 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 
 ## Retrofitting Strategy
 
+Preserve the shell. Reline the core. Retrofit from inside out. The building is leaky, glare-prone, and energy-hungry, but the façade is sound, daylight is already sufficient, and occupancy can rise. Because it is historic, the street face stays; insulation, systems, and interior shades do the work from the inside, cutting infiltration and radiation without rewriting the envelope.
+
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/retrofitting-table.png" title="Retrofitting components and upgrades" class="img-fluid rounded" %}
@@ -60,6 +62,8 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 ---
 
 ## Assumptions
+
+Simulations run on the current Atlanta-Fulton TMY and a 2050 morphed file. Zone loads follow ASHRAE 90.1, with an equipment power density of 8.1 W/m² and a cooling set point of 24–27°C. Envelope, infiltration, shading, and HVAC COP ranges are the variables; level count, floor fraction, and extension set how the shell grows.
 
 ### Weather Files
 
@@ -85,6 +89,8 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 
 ## Design Space Construction
 
+Wall, roof, glazing, shading, infiltration, and HVAC options combine into 7,077,888 solutions. A 128-run fractional factorial samples that space so EUI, CO₂, cost, daylight (UDI), and glare can be compared without simulating every combination.
+
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/design-space-construction.png" title="Design space construction parameters" class="img-fluid rounded" %}
@@ -94,6 +100,8 @@ The project focuses on designing an exploration for retrofitting 792 Donald Lee 
 ---
 
 ## Results
+
+A weighted score (EUI 27.5%, UDI and DGP 17.5% each, area 15%, CO₂ 12.5%, cost 10%) ranks the runs. Cooling load, then roof and wall insulation, move EUI the most; adding floors changes area and glare. Best current-weather cases cut site EUI by about 61% from the 283.91 baseline.
 
 <div class="results-hero-image">
 <img src="{{ 'assets/img/results-performance.jpg' | relative_url }}" alt="Performance results">
