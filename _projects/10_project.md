@@ -22,15 +22,6 @@ An integrated framework synthesizes computational fluid dynamics (CFD) and agent
 
 <img src="{{ 'assets/img/sigradi-gym-setup.png' | relative_url }}" alt="CFD gym setup with inlet, outlet, superspreaders, and heat sources" class="img-fluid">
 
-<div class="iecc-image-pair">
-<div class="iecc-image-pair__item">
-<img src="{{ 'assets/img/sigradi-mixing.jpg' | relative_url }}" alt="Mixing ventilation airflow">
-</div>
-<div class="iecc-image-pair__item">
-<img src="{{ 'assets/img/sigradi-displacement.jpg' | relative_url }}" alt="Displacement ventilation airflow">
-</div>
-</div>
-
 ---
 
 ## Methodology
@@ -52,8 +43,6 @@ The ABS model, created in AnyLogic, includes waiting areas, locker rooms, the ma
 ## Results
 
 Equipment-induced forced convection increases aerosol dispersion distances by 65% (1.8 m to 3.0 m) and elevates exposure risks by 40% compared to static occupant scenarios. Displacement ventilation achieved superior CRE values of 1.8–2.4 in occupant breathing zones, compared with mixing ventilation at an average CRE of 1.7. Under superspreader scenarios emitting pathogens at five times the baseline rate, displacement ventilation showed better thermal stratification and contaminant capture than mixing, particularly when paired with MERV-13 filtration.
-
-<img src="{{ 'assets/img/sigradi-superspreader.jpg' | relative_url }}" alt="Superspreader temperature contours" class="img-fluid">
 
 Spatiotemporal exposure maps show high-density zones in the cardio equipment area, main corridor, and rest areas. Overall exposure rose from 2,757 at 7:52 AM to 14,151 at 8:58 AM as patients completed cardio and staff circulated for disinfection. MERV-13 filtration reduced infection probability by 75–80% in non-superspreader scenarios, though superspreaders reduced this efficacy to 40–60%.
 
